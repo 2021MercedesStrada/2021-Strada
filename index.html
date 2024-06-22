@@ -89,19 +89,32 @@
             <div class="item"><img src="image2.jpg" alt="Image 2"></div>
             <div class="item"><img src="image3.jpg" alt="Image 3"></div>
         </div>
+        <div class="carousel-nav">
+            <div class="carousel-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="carousel-next"><i class="fas fa-chevron-right"></i></div>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
-            $("#carousel").owlCarousel({
+            var owl = $("#carousel");
+            owl.owlCarousel({
                 items: 1,
                 loop: true,
-                nav: true,
+                nav: false,
                 autoplay: true,
                 autoplayTimeout: 3000,
                 autoplayHoverPause: true
+            });
+
+            $(".carousel-next").click(function() {
+                owl.trigger('owl.next');
+            });
+
+            $(".carousel-prev").click(function() {
+                owl.trigger('owl.prev');
             });
         });
     </script>
