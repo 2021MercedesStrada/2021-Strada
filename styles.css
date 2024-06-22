@@ -18,11 +18,21 @@ body {
 h1 {
     color: #0056b3;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e53935;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: #0056b3;
     margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
 }
 
 ul {
