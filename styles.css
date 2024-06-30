@@ -68,30 +68,26 @@ a:hover {
     text-decoration: underline;
 }
 
-.owl-carousel .item img {
-    display: block;
+.main-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.carousel-wrapper {
-    position: relative;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
 }
 
-.carousel-nav {
-    position: absolute;
-    top: 50%;
+.gallery img {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
 }
 
-.carousel-prev, .carousel-next {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    user-select:
+.gallery img:hover {
+    transform: scale(1.05);
+}
