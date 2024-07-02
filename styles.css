@@ -21,39 +21,18 @@ h1 {
     margin-bottom: 10px;
 }
 
+.price, .mileage, .vin, .consingment, .location {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
 .price {
-    text-align: center;
-    font-size: 1.5em;
     color: #e53935;
-    margin-bottom: 5px;
 }
 
-.mileage {
-    text-align: center;
-    font-size: 1.5em;
-    color: #000000;
-    margin-bottom: 5px;
-}
-
-.vin {
-    text-align: center;
-    font-size: 1.5em;
-    color: ##000000;;
-    margin-bottom: 5px;
-}
-
-.consingment {
-    text-align: center;
-    font-size: 1.5em;
-    color: ##000000;;
-    margin-bottom: 5px;
-}
-
-.location {
-    text-align: center;
-    font-size: 1.5em;
-    color: ##000000;;
-    margin-bottom: 20px;
+.mileage, .vin, .consingment, .location {
+    color: #000;
 }
 
 h2 {
