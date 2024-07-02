@@ -28,6 +28,27 @@ h1 {
     margin-bottom: 20px;
 }
 
+.mileage {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
+.vin {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
+.consingment {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
 h2 {
     color: #0056b3;
     margin-top: 20px;
