@@ -21,17 +21,17 @@ h1 {
     margin-bottom: 10px;
 }
 
-.price, .mileage, .vin, .consingment, .location {
+.price {
     text-align: center;
     font-size: 1.5em;
+    color: #e53935;
     margin-bottom: 5px;
 }
 
-.price {
-    color: #e53935;
-}
-
 .mileage, .vin, .consingment, .location {
+    text-align: center;
+    font-size: 1em;  /* Adjust the font size as needed */
+    margin-bottom: 5px;
     color: #000;
 }
 
